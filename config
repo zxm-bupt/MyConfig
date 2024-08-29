@@ -1,0 +1,30 @@
+Host raspberryPi-offschool
+  #!!EnableDragFile Yes
+  HostName 192.168.100.2
+  User pi
+  
+Host raspberrypi-onschool
+  #!!EnableDragFile Yes
+  HostName 10.29.176.209
+  User pi
+
+Host Ubuntu-offschool
+  #!!EnableDragFile Yes
+  HostName 192.168.100.4
+  User gauss
+
+Host Ubuntu-on1107
+  #!!EnableDragFile Yes
+  HostName 192.168.6.210
+  User gauss
+  
+Host AliyunCloud
+  #!!EnableDragFile Yes
+  HostName 123.57.190.49
+  User root
+ 
+Host D2000-Test
+  #!!EnableDragFile Yes
+  HostName 10.112.81.16
+  User rros 
+  IdentityFile C:\Users\15643\.ssh\d2000_test
