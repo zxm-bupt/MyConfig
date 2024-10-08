@@ -28,3 +28,15 @@ Host D2000-Test
   HostName 10.112.81.16
   User rros 
   IdentityFile C:\Users\15643\.ssh\d2000_test
+
+Host TY45
+  #!!EnableDragFile Yes
+  HostName 192.168.100.5
+  User u
+  IdentityFile C:\Users\15643\.ssh\d2000_test
+
+Host TY46
+  #!!EnableDragFile Yes
+  HostName 192.168.100.100
+  User u
+  IdentityFile C:\Users\15643\.ssh\d2000_test
